@@ -4,19 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5d131083-f6ba-4458-aa96-200e319d623f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaSimulation2024.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tehtava sarja1/Tehtava sarja1.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tehtava sarja1/src/Asiakas.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tehtava sarja1/src/AsiakasTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tehtava sarja1/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+    <list default="true" id="5d131083-f6ba-4458-aa96-200e319d623f" name="Changes" comment="IkaJakauma tehtävä valmis">
+      <change afterPath="$PROJECT_DIR$/Tehtava sarja2/Tehtava sarja2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tehtava sarja2/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tehtava sarja2/src/TapahtumaOhjelma.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,11 +24,12 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_AUTO_UPDATE" value="true" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 1
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
   <component name="ProjectId" id="2b8fZ9jDLb3HjGK12vfAVFB1MC5" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -48,7 +42,11 @@
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "Application.AsiakasTest.executor": "Run",
+    "Application.HallintaOhjelma.executor": "Run",
+    "Application.IkaJakauma.executor": "Run",
     "Application.Main.executor": "Run",
+    "Application.TapahtumaOhjelma.executor": "Run",
+    "Application.TapahtumaTesti.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -60,7 +58,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "onboarding.tips.debug.path": "C:/Users/stefu/IdeaProjects/JavaSimulation2024/Tehtava sarja1/src/Main.java",
+    "onboarding.tips.debug.path": "C:/Users/stefu/IdeaProjects/JavaSimulation2024/Tehtava sarja2/src/Main.java",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -79,15 +77,68 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1705601685222</updated>
-      <workItem from="1705601686610" duration="2932000" />
+      <workItem from="1705601686610" duration="3289000" />
+      <workItem from="1705684573019" duration="16000" />
+      <workItem from="1705839393760" duration="2254000" />
+      <workItem from="1705841682095" duration="4764000" />
+      <workItem from="1705924135885" duration="4897000" />
     </task>
+    <task id="LOCAL−00001" summary="initial commit">
+      <option name="closed" value="true" />
+      <created>1705604701451</created>
+      <option name="number" value="LOCAL−00001" />
+      <option name="presentableId" value="LOCAL−00001" />
+      <updated>1705604701451</updated>
+    </task>
+    <task id="LOCAL−00002" summary="Tehtävä asikasluokan luomisesta valmis.">
+      <option name="closed" value="true" />
+      <created>1705604726662</created>
+      <option name="number" value="LOCAL−00002" />
+      <option name="presentableId" value="LOCAL−00002" />
+      <updated>1705604726662</updated>
+    </task>
+    <task id="LOCAL−00003" summary="IkaJakauma tehtävä valmis">
+      <option name="closed" value="true" />
+      <created>1705849055983</created>
+      <option name="number" value="LOCAL−00003" />
+      <option name="presentableId" value="LOCAL−00003" />
+      <updated>1705849055983</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="initial commit" />
+    <MESSAGE value="Tehtävä asikasluokan luomisesta valmis." />
+    <MESSAGE value="IkaJakauma tehtävä valmis" />
+    <option name="LAST_COMMIT_MESSAGE" value="IkaJakauma tehtävä valmis" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
