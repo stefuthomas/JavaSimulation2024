@@ -11,10 +11,10 @@ public class IkaJakauma {
         // 1000 kertaa arvotaan luku ja kasvatetaan oikeaa muuttujaa sen mukaan.
         for (int i = 0; i < 1000; i++) {
             int num = random.nextInt(100);
-            // alle 20v ovat 0-10, 20-23v ovat 11-45, 24-29v ovat 46-95 ja yli 30v ovat 96-100.
-            if (num >= 0 && num <= 10) {
+            // alle 20v ovat 0-9, 20-23v ovat 10-45, 24-29v ovat 46-95 ja yli 30v ovat 96-100.
+            if (num >= 0 && num <= 9) {
                 alle20++;
-            } else if (num >= 11 && num <= 45) {
+            } else if (num >= 10 && num <= 45) {
                 _20_23++;
             } else if (num >= 46 && num <= 95) {
                 _24_29++;
