@@ -13,25 +13,29 @@ public class Saapumisprosessi {
 
     public void lisaaTapahtuma(Tapahtumalista tapahtumalista) {
         double saapumisaika = Math.round(saapumisJakauma.sample());
-        System.out.println("Saapumisaika: " + saapumisaika);
-        tapahtumalista.lisaaTapahtuma(new Tapahtuma(tapahtumanTyyppi, saapumisaika));
         Kello kello = Kello.getInstance();
         kello.siirraKelloa(0, (int) saapumisaika);
-        System.out.println(kello.getAika());
+        tapahtumalista.lisaaTapahtuma(new Tapahtuma(tapahtumanTyyppi, kello.getAika()));
+        System.out.println("Saapumisaika: " + saapumisaika);
+        System.out.println("Kello: " + kello.getAika());
     }
 }
 
 class Tapahtuma {
+    private static int numero = 0;
+    private int tapahtumanNumero;
     private String tapahtumanTyyppi;
-    private double aika;
+    private String aika;
 
-    public Tapahtuma(String tapahtumanTyyppi, double aika) {
+    public Tapahtuma(String tapahtumanTyyppi, String aika) {
+        Kello kello = Kello.getInstance();
+        this.tapahtumanNumero = ++numero;
         this.tapahtumanTyyppi = tapahtumanTyyppi;
         this.aika = aika;
     }
 
     public String toString() {
-        return "Tapahtuma: " + tapahtumanTyyppi + " " + Math.round(aika);
+        return tapahtumanNumero + ". " + tapahtumanTyyppi + " Saapumisaika: " + aika;
     }
 }
 
@@ -57,5 +61,6 @@ class SaapumisprosessiTesti {
         for (int i = 0; i < 10; i++) {
             saapumisprosessi.lisaaTapahtuma(tapahtumalista);
         }
+        tapahtumalista.tulostaTapahtumalista();
     }
 }
