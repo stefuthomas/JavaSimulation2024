@@ -4,12 +4,42 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5d131083-f6ba-4458-aa96-200e319d623f" name="Changes" comment="IkaJakauma tehtävä valmis">
-      <change afterPath="$PROJECT_DIR$/Tehtava sarja2/Tehtava sarja2.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tehtava sarja2/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tehtava sarja2/src/TapahtumaOhjelma.java" afterDir="false" />
+    <list default="true" id="5d131083-f6ba-4458-aa96-200e319d623f" name="Changes" comment="Kello-luokka luotu käyttäen singleton mallia.">
+      <change afterPath="$PROJECT_DIR$/Tehtava sarja3/Tehtava sarja3.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tehtava sarja3/src/Saapumisprosessi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tehtava sarja3/src/eduni/distributions/Bernoulli.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tehtava sarja3/src/eduni/distributions/Beta.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tehtava sarja3/src/eduni/distributions/BetaPrime.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tehtava sarja3/src/eduni/distributions/Binomial.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tehtava sarja3/src/eduni/distributions/Cauchy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tehtava sarja3/src/eduni/distributions/ChiSquare.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tehtava sarja3/src/eduni/distributions/ContinuousGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tehtava sarja3/src/eduni/distributions/DiscreteGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tehtava sarja3/src/eduni/distributions/Distributions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tehtava sarja3/src/eduni/distributions/Erlang.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tehtava sarja3/src/eduni/distributions/FDistribution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tehtava sarja3/src/eduni/distributions/Gamma.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tehtava sarja3/src/eduni/distributions/Generator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tehtava sarja3/src/eduni/distributions/Geometric.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tehtava sarja3/src/eduni/distributions/Invgamma.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tehtava sarja3/src/eduni/distributions/LogNormal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tehtava sarja3/src/eduni/distributions/Logistic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tehtava sarja3/src/eduni/distributions/MetaGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tehtava sarja3/src/eduni/distributions/Negexp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tehtava sarja3/src/eduni/distributions/Normal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tehtava sarja3/src/eduni/distributions/ParameterException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tehtava sarja3/src/eduni/distributions/Pareto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tehtava sarja3/src/eduni/distributions/Pascal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tehtava sarja3/src/eduni/distributions/Poisson.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tehtava sarja3/src/eduni/distributions/RandomGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tehtava sarja3/src/eduni/distributions/SeedGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tehtava sarja3/src/eduni/distributions/Seedable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tehtava sarja3/src/eduni/distributions/Tstudent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tehtava sarja3/src/eduni/distributions/Uniform.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tehtava sarja3/src/eduni/distributions/Weibull.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tehtava sarja2/src/TapahtumaOhjelma.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tehtava sarja2/src/TapahtumaOhjelma.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,6 +49,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -44,7 +75,10 @@
     "Application.AsiakasTest.executor": "Run",
     "Application.HallintaOhjelma.executor": "Run",
     "Application.IkaJakauma.executor": "Run",
+    "Application.KelloTesti.executor": "Debug",
     "Application.Main.executor": "Run",
+    "Application.PalveluPisteSysteemi.executor": "Run",
+    "Application.SaapumisprosessiTesti.executor": "Run",
     "Application.TapahtumaOhjelma.executor": "Run",
     "Application.TapahtumaTesti.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
@@ -58,7 +92,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "onboarding.tips.debug.path": "C:/Users/stefu/IdeaProjects/JavaSimulation2024/Tehtava sarja2/src/Main.java",
+    "onboarding.tips.debug.path": "C:/Users/stefu/IdeaProjects/JavaSimulation2024/Tehtava sarja3/src/Main.java",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -81,7 +115,17 @@
       <workItem from="1705684573019" duration="16000" />
       <workItem from="1705839393760" duration="2254000" />
       <workItem from="1705841682095" duration="4764000" />
-      <workItem from="1705924135885" duration="4897000" />
+      <workItem from="1705924135885" duration="9705000" />
+      <workItem from="1705995197772" duration="995000" />
+      <workItem from="1706003229316" duration="244000" />
+      <workItem from="1706012577455" duration="295000" />
+      <workItem from="1706093315265" duration="665000" />
+      <workItem from="1706096648958" duration="1680000" />
+      <workItem from="1706181614095" duration="598000" />
+      <workItem from="1706184326969" duration="11000" />
+      <workItem from="1706186173598" duration="1101000" />
+      <workItem from="1706365055454" duration="2554000" />
+      <workItem from="1706440350641" duration="4065000" />
     </task>
     <task id="LOCAL−00001" summary="initial commit">
       <option name="closed" value="true" />
@@ -104,7 +148,49 @@
       <option name="presentableId" value="LOCAL−00003" />
       <updated>1705849055983</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL−00004" summary="TapahtuaOhjelma valmis.">
+      <option name="closed" value="true" />
+      <created>1705929327125</created>
+      <option name="number" value="LOCAL−00004" />
+      <option name="presentableId" value="LOCAL−00004" />
+      <updated>1705929327125</updated>
+    </task>
+    <task id="LOCAL−00005" summary="Lisätty kommentteja.">
+      <option name="closed" value="true" />
+      <created>1705943736992</created>
+      <option name="number" value="LOCAL−00005" />
+      <option name="presentableId" value="LOCAL−00005" />
+      <updated>1705943736992</updated>
+    </task>
+    <task id="LOCAL−00006" summary="Enum-määritykset tehty tapahtumille.">
+      <option name="closed" value="true" />
+      <created>1705947085702</created>
+      <option name="number" value="LOCAL−00006" />
+      <option name="presentableId" value="LOCAL−00006" />
+      <updated>1705947085702</updated>
+    </task>
+    <task id="LOCAL−00007" summary="TapahtumanTyyppi - enum tiedosto luotu ja määritykset tyypeille tehty.">
+      <option name="closed" value="true" />
+      <created>1705947408011</created>
+      <option name="number" value="LOCAL−00007" />
+      <option name="presentableId" value="LOCAL−00007" />
+      <updated>1705947408011</updated>
+    </task>
+    <task id="LOCAL−00008" summary="Vaihdettu prosentuaalisia määriä.">
+      <option name="closed" value="true" />
+      <created>1706182195521</created>
+      <option name="number" value="LOCAL−00008" />
+      <option name="presentableId" value="LOCAL−00008" />
+      <updated>1706182195521</updated>
+    </task>
+    <task id="LOCAL−00009" summary="Kello-luokka luotu käyttäen singleton mallia.">
+      <option name="closed" value="true" />
+      <created>1706367435597</created>
+      <option name="number" value="LOCAL−00009" />
+      <option name="presentableId" value="LOCAL−00009" />
+      <updated>1706367435597</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -138,7 +224,13 @@
     <MESSAGE value="initial commit" />
     <MESSAGE value="Tehtävä asikasluokan luomisesta valmis." />
     <MESSAGE value="IkaJakauma tehtävä valmis" />
-    <option name="LAST_COMMIT_MESSAGE" value="IkaJakauma tehtävä valmis" />
+    <MESSAGE value="TapahtuaOhjelma valmis." />
+    <MESSAGE value="Lisätty kommentteja." />
+    <MESSAGE value="Enum-määritykset tehty tapahtumille." />
+    <MESSAGE value="TapahtumanTyyppi - enum tiedosto luotu ja määritykset tyypeille tehty." />
+    <MESSAGE value="Vaihdettu prosentuaalisia määriä." />
+    <MESSAGE value="Kello-luokka luotu käyttäen singleton mallia." />
+    <option name="LAST_COMMIT_MESSAGE" value="Kello-luokka luotu käyttäen singleton mallia." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -148,6 +240,10 @@
           <line>11</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.NullPointerException" package="java.lang" />
+          <option name="timeStamp" value="4" />
+        </breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>

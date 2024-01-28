@@ -1,9 +1,5 @@
 import java.util.PriorityQueue;
 
-enum TapahtumanTyyppi {
-    saapuminen, poistuminen
-}
-
 class Tapahtuma implements Comparable<Tapahtuma> {
     // Tapahtuma-luokan attribuutit
     private String nimi;
